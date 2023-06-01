@@ -82,3 +82,10 @@ if (etappe.nr== "7"){
 pulldown.innerHTML +=  `<option ${status} value = "${etappe.user}"> ${etappe.nr}: ${etappe.etappe}</option>` ;
 
 }
+
+// ändrungen im  
+pulldown.onchange= function(evt) {
+let url= `https://${pulldown.value}.github.io/biketirol`
+    //console.log(pulldown.value);
+    window.location.href= url;
+}
