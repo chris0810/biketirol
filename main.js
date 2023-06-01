@@ -67,3 +67,7 @@ let controlElevation = L.control.elevation({
 }).addTo(map);
 
 controlElevation.load("data/etappe14.gpx")
+
+//let profileDiv= document.querySelector("#profile");
+//profileDiv.innerHTML="Sepp";
+console.log(ETAPPEN)
