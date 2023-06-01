@@ -63,6 +63,7 @@ let controlElevation = L.control.elevation({
     time : false,
     elevationDiv: "#profile",
     heigth: 300,
+    theme: "bike-tirol", 
 }).addTo(map);
 
 controlElevation.load("data/etappe14.gpx")

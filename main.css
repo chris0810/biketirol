@@ -47,7 +47,10 @@ article {
     border: 1px solid gray;
     margin-top: 0.3em
 }
-
+.bike-tirol{
+    --ele-bg: white;
+    --ele-area:  #FF851B,
+}
 footer {
     font-family: "Roboto", sans-serif;
     font-size: 0.9em;
