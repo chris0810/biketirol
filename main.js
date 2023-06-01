@@ -70,4 +70,11 @@ controlElevation.load("data/etappe14.gpx")
 
 //let profileDiv= document.querySelector("#profile");
 //profileDiv.innerHTML="Sepp";
-console.log(ETAPPEN)
+
+
+let pulldown = document.querySelector("#pulldown");
+for (let etappe of ETAPPEN){
+console.log(etappe);
+pulldown.innerHTML +=  `<option value = "${etappe.user}"> ${etappe.nr}: ${etappe.etappe}</option>` ;
+
+}
