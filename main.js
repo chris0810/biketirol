@@ -60,7 +60,9 @@ L.control.scale({
 
 //GPX track visualisieren
 let controlElevation = L.control.elevation({
-    
+    time : false,
+    elevationDiv: "#profile",
+    heigth: 300,
 }).addTo(map);
 
 controlElevation.load("data/etappe14.gpx")
